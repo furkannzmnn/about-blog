@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+body {
+    background-image: url(../img/person-5956897.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    width: 35cm; top: 4cm;
+    font-family: 'Permanent Marker', cursive;
+}
+.banner h5 {
+    text-align: center;
+    position: absolute;
+    top: 5cm;width: 35cm; 
+    color:rgb(3, 3, 3) ;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Sacramento', cursive;;
+}
+.banner img {
+   width: 400px; height: 400px;
+   float: left;
+}
+.banner ul {
+    margin: 0%;
+    
+}
+.banner li {
+    display: inline-block;
+    list-style: none;
+    margin: 30px;  
+    
+}
+.banner li a {
+    color: white;
+    font-size: 50px;
+    position: relative; top: 6cm; left:10.5cm;
+    transition: all ease-in-out 250ms;
+}
+.banner li a :hover {
+    color: rgb(0, 0, 0);
+}
+.menu  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .menu  li {
+    float: left;
+  }
+  
+ .menu li a {
+    display: block;
+    color: rgb(7, 7, 7); 
+    
+    position: relative; left:15cm ;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .menu  li a:hover {
+    background-color: rgb(156, 96, 40);
+  }
